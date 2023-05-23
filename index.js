@@ -1,5 +1,6 @@
 const items = document.querySelectorAll("li");
 const addBtn = document.querySelector("button");
+const ul = document.querySelector("ul");
 
 items.forEach(item => {
     item.addEventListener("click", e => {
@@ -8,6 +9,8 @@ items.forEach(item => {
     })
 });
 
-addBtn.addEventListener("click", e=>{
-
+addBtn.addEventListener("click", ()=>{
+    const li = document.createElement("li");
+    li.textContent = 'zahra';
+    ul.prepend(li)
 });
