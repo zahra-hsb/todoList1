@@ -47,6 +47,7 @@ footer{
 }
 .line-through{
     text-decoration: line-through;
+    opacity: 50%;
 }
 button{
     width: 50px;
