@@ -15,3 +15,8 @@ addBtn.addEventListener("click", ()=>{
 //         e.target.remove();
 //     })
 // });
+ul.addEventListener("click" ,e => {
+    if(e.target.tagName === "LI"){
+        e.target.remove();
+    }
+});
