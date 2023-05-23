@@ -22,3 +22,14 @@ ul{
     align-items: center;
     list-style: none;
 }
+li{
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color:#74e4bf;
+    border: 1px solid white;
+    cursor: pointer;
+}
