@@ -8,9 +8,10 @@ addBtn.addEventListener("click", ()=>{
     ul.prepend(li)
 });
 
-items.forEach(item => {
-    item.addEventListener("click", e => {
-        // e.target.classList.add("line-through");
-        e.target.remove();
-    })
-});
+// items.forEach(item => {
+//     item.addEventListener("click", e => {
+//         // e.target.classList.add("line-through");
+//         e.stopPropagation();
+//         e.target.remove();
+//     })
+// });
