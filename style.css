@@ -4,7 +4,10 @@
     padding: 0;
 }
 header{
-    width: 100%;
+    width: 100vw;
+    height: 30vh;
+    background-color:aqua;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
