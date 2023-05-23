@@ -36,3 +36,12 @@ li{
 li:hover{
     background-color: aquamarine;
 }
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color:cadetblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
